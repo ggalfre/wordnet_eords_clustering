@@ -232,7 +232,7 @@ def get_listed(clusters):
     return readable_clusters
 
 
-parser = argparse.ArgumentParser(description='Applies Wordnet based algorithm to group tags from the dataset selected '
+parser = argparse.ArgumentParser(description='Applies Wordnet based algorithm to group words from the file selected '
                                              'into meaningful clusters related to hypernyms synsets.')
 parser.add_argument(dest='words_path',
                     action='store',
